@@ -3,25 +3,21 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Luxe Interiors — Coming Soon',
+  title: 'Aspira Interiors',
   description: 'Transform your space into a sanctuary of sophistication. Discover premium interior design services launching soon.',
-  generator: 'v0.app',
+  generator: 'Aspira Tech',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/apple-tourch-icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
+        url: '/favicon.ico',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/apple-touch-icon.png',
   },
 }
 
